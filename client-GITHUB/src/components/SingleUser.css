@@ -1,0 +1,36 @@
+.wrapper {
+    color: black;
+    text-decoration: none;
+}
+
+.outer-container {
+    width: 85%;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    margin: 10px;
+    border: 0.1rem solid;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-container:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.ethnicity {
+    float: right;
+}
+
+input {
+    height: 18px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 1rem;
+}
+

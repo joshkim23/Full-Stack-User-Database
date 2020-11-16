@@ -1,0 +1,10 @@
+.single-main-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    margin: 10px;
+    border: 0.1rem solid;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+}
